@@ -1,6 +1,6 @@
 function converter(){
 	var inp=Math.trunc(document.getElementById("decim").value);
-	var mod, bin=[1000], a=inp;
+	var mod, bin=[], a=inp;
 	
 	if(inp<0){
 		document.getElementById("bina").innerHTML=
