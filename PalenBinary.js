@@ -17,8 +17,8 @@ function converter(){
 		
 		document.getElementById("bina").innerHTML +=
 		"You input the decimal number: ["+ inp +"]10<br>And it will become binary [";
-		while(bin.length>0) document.getElementById("decimal").innerHTML += binary.pop();
-		document.getElementById("decimal").innerHTML += "]2";
+		while(bin.length>0) document.getElementById("bina").innerHTML += binary.pop();
+		document.getElementById("bina").innerHTML += "]2";
 		
 	}
 }
